@@ -31,7 +31,7 @@ export default {
   methods: {
     onSubmit() {
       axios
-        .post('http://harleydiniz.herokuapp.com/api/seguranca/autenticar', {
+        .post('https://harleydiniz.herokuapp.com/api/seguranca/autenticar', {
           matricula: this.matricula,
           password: this.password
         })
