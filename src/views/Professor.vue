@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="navbar bg-primary text-white">
-      <div class="navbar-brand"><img src="img/logo.svg"></div>
+      <div class="navbar-brand"><img src="https://fhdfm.github.io/sca-web/img/logo.svg"></div>
       {{ matricula }} - {{ nome }}
     </nav>
 
